@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(224, 220, 221);
+}
+
+main {
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+header {
+    display: flex; /* Utiliza flexbox para distribuir los elementos */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+    justify-content: space-between; /* Coloca espacio entre los elementos (a la izquierda y a la derecha) */
+    background-color: rgb(238, 189, 171);
+}
+
+/* Estilo para los elementos de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline; /* Muestra los elementos de navegación en línea (uno después del otro) */
+    margin-right: 20px; /* Espacio entre elementos de navegación */
+}
+h2, h3, p {
+    text-align: center; /* Centra el texto horizontalmente */
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.categorias {
+    margin-left: 25.5%;
+    margin-right: 25.5%;
+}
+
+div.productos {
+    width: 100%;
+    max-width: 30%; /* Establece el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra los div en el centro de la pantalla */
+}
+
+#centro {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+img.productos {
+    display: block;
+    margin: 0 auto;
+}
+
+.categorias{
+    display: flex;
+}
+
+.productos {
+    background-color: rgb(246, 225, 198);
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+}
+
+.imagenes img {
+    max-width: 80%;
+    height: auto;
+}
+footer#main a{
+    color: white;
+}
+footer#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color del texto del footer */
+    text-align: center;
+    padding: 10px;
+}
